@@ -1,3 +1,7 @@
+This is a basic name edit for bootstrap compatibility, now `$.jqmodal` is used instead of `$.modal`.
+
+-----------
+
 A simple & lightweight method of displaying modal windows with jQuery.
 
 For quick examples and demos, head to [jquerymodal.com](http://jquerymodal.com/).
