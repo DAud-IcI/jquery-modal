@@ -229,7 +229,7 @@
   $.jqmodal.AJAX_FAIL = 'modal:ajax:fail';
   $.jqmodal.AJAX_COMPLETE = 'modal:ajax:complete';
 
-  $.fn.modal = function(options){
+  $.fn.jqmodal = function(options){
     if (this.length === 1) {
       new $.jqmodal(this, options);
     }
@@ -240,6 +240,6 @@
   $(document).on('click.modal', 'a[rel~="modal:close"]', $.jqmodal.close);
   $(document).on('click.modal', 'a[rel~="modal:open"]', function(event) {
     event.preventDefault();
-    $(this).modal();
+    $(this).jqmodal();
   });
 }));
